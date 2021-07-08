@@ -662,8 +662,8 @@ $({ target: 'Reflect', stat: true, sham: !FREEZING }, {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\src\polyfills.ts */"hN/g");
-module.exports = __webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"LEsg");
+__webpack_require__(/*! D:\git\paul\clinicafrontend\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\git\paul\clinicafrontend\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"LEsg");
 
 
 /***/ }),

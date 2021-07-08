@@ -99,10 +99,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_closeDialogVia", function() { return _closeDialogVia; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "matDialogAnimations", function() { return matDialogAnimations; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "throwMatDialogContentAlreadyAttachedError", function() { return throwMatDialogContentAlreadyAttachedError; });
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "vuIU");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "Ji7U");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "LK+K");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "1OyB");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "vuIU");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "Ji7U");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "LK+K");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "1OyB");
 /* harmony import */ var _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/overlay */ "rDax");
 /* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/portal */ "+rOU");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ "fXoL");
@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 function MatDialogContainer_ng_template_0_Template(rf, ctx) {}
 
 var MatDialogConfig = function MatDialogConfig() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogConfig);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogConfig);
 
   /** The ARIA role of the dialog element. */
   this.role = 'dialog';
@@ -259,16 +259,16 @@ function throwMatDialogContentAlreadyAttachedError() {
 
 
 var _MatDialogContainerBase = /*#__PURE__*/function (_BasePortalOutlet) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(_MatDialogContainerBase, _BasePortalOutlet);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(_MatDialogContainerBase, _BasePortalOutlet);
 
-  var _super = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(_MatDialogContainerBase);
+  var _super = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(_MatDialogContainerBase);
 
   function _MatDialogContainerBase(_elementRef, _focusTrapFactory, _changeDetectorRef, _document,
   /** The dialog configuration. */
   _config, _focusMonitor) {
     var _this;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _MatDialogContainerBase);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _MatDialogContainerBase);
 
     _this = _super.call(this);
     _this._elementRef = _elementRef;
@@ -311,7 +311,7 @@ var _MatDialogContainerBase = /*#__PURE__*/function (_BasePortalOutlet) {
   /** Initializes the dialog container with the attached content. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(_MatDialogContainerBase, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(_MatDialogContainerBase, [{
     key: "_initializeWithAttachedContent",
     value: function _initializeWithAttachedContent() {
       this._setupFocusTrap(); // Save the previously focused element. This element will be re-focused
@@ -545,14 +545,14 @@ _MatDialogContainerBase.propDecorators = {
 
 
 var MatDialogContainer = /*#__PURE__*/function (_MatDialogContainerBa) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(MatDialogContainer, _MatDialogContainerBa);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(MatDialogContainer, _MatDialogContainerBa);
 
-  var _super2 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(MatDialogContainer);
+  var _super2 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(MatDialogContainer);
 
   function MatDialogContainer() {
     var _this2;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogContainer);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogContainer);
 
     _this2 = _super2.apply(this, arguments);
     /** State of the dialog animation. */
@@ -563,7 +563,7 @@ var MatDialogContainer = /*#__PURE__*/function (_MatDialogContainerBa) {
   /** Callback, invoked whenever an animation on the host completes. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogContainer, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogContainer, [{
     key: "_onAnimationDone",
     value: function _onAnimationDone(_ref) {
       var toState = _ref.toState,
@@ -713,7 +713,7 @@ var MatDialogRef = /*#__PURE__*/function () {
 
     var id = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "mat-dialog-".concat(uniqueId++);
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogRef);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogRef);
 
     this._overlayRef = _overlayRef;
     this._containerInstance = _containerInstance;
@@ -791,7 +791,7 @@ var MatDialogRef = /*#__PURE__*/function () {
    */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogRef, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogRef, [{
     key: "close",
     value: function close(dialogResult) {
       var _this4 = this;
@@ -1029,7 +1029,7 @@ var _MatDialogBase = /*#__PURE__*/function () {
   function _MatDialogBase(_overlay, _injector, _defaultOptions, _parentDialog, _overlayContainer, scrollStrategy, _dialogRefConstructor, _dialogContainerType, _dialogDataToken) {
     var _this5 = this;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _MatDialogBase);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _MatDialogBase);
 
     this._overlay = _overlay;
     this._injector = _injector;
@@ -1057,7 +1057,7 @@ var _MatDialogBase = /*#__PURE__*/function () {
   /** Keeps track of the currently-open dialogs. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(_MatDialogBase, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(_MatDialogBase, [{
     key: "openDialogs",
     get: function get() {
       return this._parentDialog ? this._parentDialog.openDialogs : this._openDialogsAtThisLevel;
@@ -1421,9 +1421,9 @@ _MatDialogBase.ctorParameters = function () {
 
 
 var MatDialog = /*#__PURE__*/function (_MatDialogBase2) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(MatDialog, _MatDialogBase2);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_1__["default"])(MatDialog, _MatDialogBase2);
 
-  var _super3 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(MatDialog);
+  var _super3 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_2__["default"])(MatDialog);
 
   function MatDialog(overlay, injector,
   /**
@@ -1431,7 +1431,7 @@ var MatDialog = /*#__PURE__*/function (_MatDialogBase2) {
    * @breaking-change 10.0.0
    */
   location, defaultOptions, scrollStrategy, parentDialog, overlayContainer) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialog);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialog);
 
     return _super3.call(this, overlay, injector, defaultOptions, parentDialog, overlayContainer, scrollStrategy, MatDialogRef, MatDialogContainer, MAT_DIALOG_DATA);
   }
@@ -1556,7 +1556,7 @@ var MatDialogClose = /*#__PURE__*/function () {
   function MatDialogClose( // The dialog title directive is always used in combination with a `MatDialogRef`.
   // tslint:disable-next-line: lightweight-tokens
   dialogRef, _elementRef, _dialog) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogClose);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogClose);
 
     this.dialogRef = dialogRef;
     this._elementRef = _elementRef;
@@ -1566,7 +1566,7 @@ var MatDialogClose = /*#__PURE__*/function () {
     this.type = 'button';
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogClose, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogClose, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       if (!this.dialogRef) {
@@ -1712,7 +1712,7 @@ var MatDialogTitle = /*#__PURE__*/function () {
   function MatDialogTitle( // The dialog title directive is always used in combination with a `MatDialogRef`.
   // tslint:disable-next-line: lightweight-tokens
   _dialogRef, _elementRef, _dialog) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogTitle);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogTitle);
 
     this._dialogRef = _dialogRef;
     this._elementRef = _elementRef;
@@ -1720,7 +1720,7 @@ var MatDialogTitle = /*#__PURE__*/function () {
     this.id = "mat-dialog-title-".concat(dialogElementUid++);
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogTitle, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(MatDialogTitle, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       var _this7 = this;
@@ -1818,7 +1818,7 @@ MatDialogTitle.propDecorators = {
 
 
 var MatDialogContent = function MatDialogContent() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogContent);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogContent);
 };
 
 MatDialogContent.ɵfac = function MatDialogContent_Factory(t) {
@@ -1850,7 +1850,7 @@ MatDialogContent.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineD
 
 
 var MatDialogActions = function MatDialogActions() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogActions);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogActions);
 };
 
 MatDialogActions.ɵfac = function MatDialogActions_Factory(t) {
@@ -1903,7 +1903,7 @@ function getClosestDialog(element, openDialogs) {
 
 
 var MatDialogModule = function MatDialogModule() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogModule);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MatDialogModule);
 };
 
 MatDialogModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineNgModule"]({
@@ -2892,14 +2892,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_material_src_material_datepicker_datepicker_c", function() { return MatDatepickerBase; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_material_src_material_datepicker_datepicker_d", function() { return MatDatepickerInputBase; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_material_src_material_datepicker_datepicker_e", function() { return MAT_DATE_RANGE_INPUT_PARENT; });
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ "KQm4");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "JX7q");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/get */ "ReuC");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "foSv");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "Ji7U");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "LK+K");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "1OyB");
-/* harmony import */ var D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "vuIU");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ "KQm4");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "JX7q");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/get */ "ReuC");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "foSv");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "Ji7U");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "LK+K");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "1OyB");
+/* harmony import */ var D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "vuIU");
 /* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/cdk/a11y */ "u47x");
 /* harmony import */ var _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/cdk/overlay */ "rDax");
 /* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/cdk/portal */ "+rOU");
@@ -3183,7 +3183,7 @@ function createMissingDateImplError(provider) {
 
 var MatDatepickerIntl = /*#__PURE__*/function () {
   function MatDatepickerIntl() {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerIntl);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerIntl);
 
     /**
      * Stream that emits whenever the labels here are changed. Use this to notify
@@ -3224,7 +3224,7 @@ var MatDatepickerIntl = /*#__PURE__*/function () {
   /** Formats a range of years. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerIntl, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerIntl, [{
     key: "formatYearRange",
     value: function formatYearRange(start, end) {
       return "".concat(start, " \u2013 ").concat(end);
@@ -3276,7 +3276,7 @@ var MatCalendarCell = function MatCalendarCell(value, displayValue, ariaLabel, e
   var compareValue = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : value;
   var rawValue = arguments.length > 6 ? arguments[6] : undefined;
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarCell);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarCell);
 
   this.value = value;
   this.displayValue = displayValue;
@@ -3296,7 +3296,7 @@ var MatCalendarBody = /*#__PURE__*/function () {
   function MatCalendarBody(_elementRef, _ngZone) {
     var _this = this;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarBody);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarBody);
 
     this._elementRef = _elementRef;
     this._ngZone = _ngZone;
@@ -3386,7 +3386,7 @@ var MatCalendarBody = /*#__PURE__*/function () {
   /** Called when a cell is clicked. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendarBody, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendarBody, [{
     key: "_cellClicked",
     value: function _cellClicked(cell, event) {
       if (cell.enabled) {
@@ -3838,7 +3838,7 @@ var DateRange = function DateRange(
 start,
 /** The end date of the range. */
 end) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, DateRange);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, DateRange);
 
   this.start = start;
   this.end = end;
@@ -3850,7 +3850,7 @@ var MatDateSelectionModel = /*#__PURE__*/function () {
   function MatDateSelectionModel(
   /** The current selection. */
   selection, _adapter) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateSelectionModel);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateSelectionModel);
 
     this.selection = selection;
     this._adapter = _adapter;
@@ -3867,7 +3867,7 @@ var MatDateSelectionModel = /*#__PURE__*/function () {
    */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateSelectionModel, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateSelectionModel, [{
     key: "updateSelection",
     value: function updateSelection(value, source) {
       this.selection = value;
@@ -3925,12 +3925,12 @@ MatDateSelectionModel.ctorParameters = function () {
 
 
 var MatSingleDateSelectionModel = /*#__PURE__*/function (_MatDateSelectionMode) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatSingleDateSelectionModel, _MatDateSelectionMode);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatSingleDateSelectionModel, _MatDateSelectionMode);
 
-  var _super = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatSingleDateSelectionModel);
+  var _super = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatSingleDateSelectionModel);
 
   function MatSingleDateSelectionModel(adapter) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatSingleDateSelectionModel);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatSingleDateSelectionModel);
 
     return _super.call(this, null, adapter);
   }
@@ -3940,10 +3940,10 @@ var MatSingleDateSelectionModel = /*#__PURE__*/function (_MatDateSelectionMode) 
    */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatSingleDateSelectionModel, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatSingleDateSelectionModel, [{
     key: "add",
     value: function add(date) {
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatSingleDateSelectionModel.prototype), "updateSelection", this).call(this, date, this);
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatSingleDateSelectionModel.prototype), "updateSelection", this).call(this, date, this);
     }
     /** Checks whether the current selection is valid. */
 
@@ -3997,12 +3997,12 @@ MatSingleDateSelectionModel.ctorParameters = function () {
 
 
 var MatRangeDateSelectionModel = /*#__PURE__*/function (_MatDateSelectionMode2) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatRangeDateSelectionModel, _MatDateSelectionMode2);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatRangeDateSelectionModel, _MatDateSelectionMode2);
 
-  var _super2 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatRangeDateSelectionModel);
+  var _super2 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatRangeDateSelectionModel);
 
   function MatRangeDateSelectionModel(adapter) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatRangeDateSelectionModel);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatRangeDateSelectionModel);
 
     return _super2.call(this, new DateRange(null, null), adapter);
   }
@@ -4013,7 +4013,7 @@ var MatRangeDateSelectionModel = /*#__PURE__*/function (_MatDateSelectionMode2) 
    */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatRangeDateSelectionModel, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatRangeDateSelectionModel, [{
     key: "add",
     value: function add(date) {
       var _this$selection = this.selection,
@@ -4029,7 +4029,7 @@ var MatRangeDateSelectionModel = /*#__PURE__*/function (_MatDateSelectionMode2) 
         end = null;
       }
 
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatRangeDateSelectionModel.prototype), "updateSelection", this).call(this, new DateRange(start, end), this);
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatRangeDateSelectionModel.prototype), "updateSelection", this).call(this, new DateRange(start, end), this);
     }
     /** Checks whether the current selection is valid. */
 
@@ -4135,12 +4135,12 @@ var MAT_DATE_RANGE_SELECTION_STRATEGY = new _angular_core__WEBPACK_IMPORTED_MODU
 
 var DefaultMatCalendarRangeStrategy = /*#__PURE__*/function () {
   function DefaultMatCalendarRangeStrategy(_dateAdapter) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, DefaultMatCalendarRangeStrategy);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, DefaultMatCalendarRangeStrategy);
 
     this._dateAdapter = _dateAdapter;
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(DefaultMatCalendarRangeStrategy, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(DefaultMatCalendarRangeStrategy, [{
     key: "selectionFinished",
     value: function selectionFinished(date, currentRange) {
       var start = currentRange.start,
@@ -4231,7 +4231,7 @@ var DAYS_PER_WEEK = 7;
 
 var MatMonthView = /*#__PURE__*/function () {
   function MatMonthView(_changeDetectorRef, _dateFormats, _dateAdapter, _dir, _rangeStrategy) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatMonthView);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatMonthView);
 
     this._changeDetectorRef = _changeDetectorRef;
     this._dateFormats = _dateFormats;
@@ -4266,7 +4266,7 @@ var MatMonthView = /*#__PURE__*/function () {
    */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatMonthView, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatMonthView, [{
     key: "activeDate",
     get: function get() {
       return this._activeDate;
@@ -4879,7 +4879,7 @@ var yearsPerRow = 4;
 
 var MatMultiYearView = /*#__PURE__*/function () {
   function MatMultiYearView(_changeDetectorRef, _dateAdapter, _dir) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatMultiYearView);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatMultiYearView);
 
     this._changeDetectorRef = _changeDetectorRef;
     this._dateAdapter = _dateAdapter;
@@ -4904,7 +4904,7 @@ var MatMultiYearView = /*#__PURE__*/function () {
   /** The date to display in this multi-year view (everything other than the year is ignored). */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatMultiYearView, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatMultiYearView, [{
     key: "activeDate",
     get: function get() {
       return this._activeDate;
@@ -5390,7 +5390,7 @@ function euclideanModulo(a, b) {
 
 var MatYearView = /*#__PURE__*/function () {
   function MatYearView(_changeDetectorRef, _dateFormats, _dateAdapter, _dir) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatYearView);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatYearView);
 
     this._changeDetectorRef = _changeDetectorRef;
     this._dateFormats = _dateFormats;
@@ -5422,7 +5422,7 @@ var MatYearView = /*#__PURE__*/function () {
   /** The date to display in this year view (everything other than the year is ignored). */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatYearView, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatYearView, [{
     key: "activeDate",
     get: function get() {
       return this._activeDate;
@@ -5909,7 +5909,7 @@ MatYearView.propDecorators = {
 
 var MatCalendarHeader = /*#__PURE__*/function () {
   function MatCalendarHeader(_intl, calendar, _dateAdapter, _dateFormats, changeDetectorRef) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarHeader);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendarHeader);
 
     this._intl = _intl;
     this.calendar = calendar;
@@ -5922,7 +5922,7 @@ var MatCalendarHeader = /*#__PURE__*/function () {
   /** The label for the current calendar view. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendarHeader, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendarHeader, [{
     key: "periodButtonText",
     get: function get() {
       if (this.calendar.currentView == 'month') {
@@ -6176,7 +6176,7 @@ var MatCalendar = /*#__PURE__*/function () {
   function MatCalendar(_intl, _dateAdapter, _dateFormats, _changeDetectorRef) {
     var _this8 = this;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendar);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatCalendar);
 
     this._dateAdapter = _dateAdapter;
     this._dateFormats = _dateFormats;
@@ -6237,7 +6237,7 @@ var MatCalendar = /*#__PURE__*/function () {
   /** A date representing the period (month or year) to start the calendar in. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendar, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatCalendar, [{
     key: "startAt",
     get: function get() {
       return this._startAt;
@@ -6734,7 +6734,7 @@ var MAT_DATEPICKER_SCROLL_STRATEGY_FACTORY_PROVIDER = {
 /** @docs-private */
 
 var MatDatepickerContentBase = function MatDatepickerContentBase(_elementRef) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerContentBase);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerContentBase);
 
   this._elementRef = _elementRef;
 };
@@ -6750,9 +6750,9 @@ var _MatDatepickerContentMixinBase = Object(_angular_material_core__WEBPACK_IMPO
 
 
 var MatDatepickerContent = /*#__PURE__*/function (_MatDatepickerContent) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepickerContent, _MatDatepickerContent);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepickerContent, _MatDatepickerContent);
 
-  var _super3 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepickerContent);
+  var _super3 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepickerContent);
 
   function MatDatepickerContent(elementRef,
   /**
@@ -6763,7 +6763,7 @@ var MatDatepickerContent = /*#__PURE__*/function (_MatDatepickerContent) {
   _changeDetectorRef, _model, _dateAdapter, _rangeSelectionStrategy) {
     var _this9;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerContent);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerContent);
 
     _this9 = _super3.call(this, elementRef);
     _this9._changeDetectorRef = _changeDetectorRef;
@@ -6780,7 +6780,7 @@ var MatDatepickerContent = /*#__PURE__*/function (_MatDatepickerContent) {
     return _this9;
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerContent, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerContent, [{
     key: "ngAfterViewInit",
     value: function ngAfterViewInit() {
       var _this10 = this;
@@ -6991,7 +6991,7 @@ MatDatepickerContent.propDecorators = {
 
 var MatDatepickerBase = /*#__PURE__*/function () {
   function MatDatepickerBase(_dialog, _overlay, _ngZone, _viewContainerRef, scrollStrategy, _dateAdapter, _dir, _document, _model) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerBase);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerBase);
 
     this._dialog = _dialog;
     this._overlay = _overlay;
@@ -7053,7 +7053,7 @@ var MatDatepickerBase = /*#__PURE__*/function () {
   /** The date to open the calendar to initially. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerBase, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerBase, [{
     key: "startAt",
     get: function get() {
       // If an explicit startAt is set we start there, otherwise we start at whatever the currently
@@ -7651,12 +7651,12 @@ MatDatepickerBase.propDecorators = {
 
 
 var MatDatepicker = /*#__PURE__*/function (_MatDatepickerBase) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepicker, _MatDatepickerBase);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepicker, _MatDatepickerBase);
 
-  var _super4 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepicker);
+  var _super4 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepicker);
 
   function MatDatepicker() {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepicker);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepicker);
 
     return _super4.apply(this, arguments);
   }
@@ -7715,7 +7715,7 @@ var MatDatepickerInputEvent = function MatDatepickerInputEvent(
 target,
 /** Reference to the native input element associated with the datepicker input. */
 targetElement) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInputEvent);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInputEvent);
 
   this.target = target;
   this.targetElement = targetElement;
@@ -7728,7 +7728,7 @@ var MatDatepickerInputBase = /*#__PURE__*/function () {
   function MatDatepickerInputBase(_elementRef, _dateAdapter, _dateFormats) {
     var _this16 = this;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInputBase);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInputBase);
 
     this._elementRef = _elementRef;
     this._dateAdapter = _dateAdapter;
@@ -7828,7 +7828,7 @@ var MatDatepickerInputBase = /*#__PURE__*/function () {
   /** The value of the input. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerInputBase, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerInputBase, [{
     key: "value",
     get: function get() {
       return this._model ? this._getValueFromModel(this._model.selection) : this._pendingValue;
@@ -8229,24 +8229,24 @@ var MAT_DATEPICKER_VALIDATORS = {
 /** Directive used to connect an input to a MatDatepicker. */
 
 var MatDatepickerInput = /*#__PURE__*/function (_MatDatepickerInputBa) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepickerInput, _MatDatepickerInputBa);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDatepickerInput, _MatDatepickerInputBa);
 
-  var _super5 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepickerInput);
+  var _super5 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDatepickerInput);
 
   function MatDatepickerInput(elementRef, dateAdapter, dateFormats, _formField) {
     var _thisSuper, _this18;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInput);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerInput);
 
     _this18 = _super5.call(this, elementRef, dateAdapter, dateFormats);
     _this18._formField = _formField;
-    _this18._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this18), Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDatepickerInput.prototype)), "_getValidators", _thisSuper).call(_thisSuper));
+    _this18._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this18), Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDatepickerInput.prototype)), "_getValidators", _thisSuper).call(_thisSuper));
     return _this18;
   }
   /** The datepicker that this input is associated with. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerInput, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerInput, [{
     key: "matDatepicker",
     set: function set(datepicker) {
       if (datepicker) {
@@ -8548,7 +8548,7 @@ MatDatepickerInput.propDecorators = {
 
 
 var MatDatepickerToggleIcon = function MatDatepickerToggleIcon() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerToggleIcon);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerToggleIcon);
 };
 
 MatDatepickerToggleIcon.ɵfac = function MatDatepickerToggleIcon_Factory(t) {
@@ -8572,7 +8572,7 @@ MatDatepickerToggleIcon.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵ�
 
 var MatDatepickerToggle = /*#__PURE__*/function () {
   function MatDatepickerToggle(_intl, _changeDetectorRef, defaultTabIndex) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerToggle);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerToggle);
 
     this._intl = _intl;
     this._changeDetectorRef = _changeDetectorRef;
@@ -8583,7 +8583,7 @@ var MatDatepickerToggle = /*#__PURE__*/function () {
   /** Whether the toggle button is disabled. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerToggle, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDatepickerToggle, [{
     key: "disabled",
     get: function get() {
       if (this._disabled === undefined && this.datepicker) {
@@ -8838,14 +8838,14 @@ var MAT_DATE_RANGE_INPUT_PARENT = new _angular_core__WEBPACK_IMPORTED_MODULE_12_
  */
 
 var MatDateRangeInputPartBase = /*#__PURE__*/function (_MatDatepickerInputBa2) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDateRangeInputPartBase, _MatDatepickerInputBa2);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDateRangeInputPartBase, _MatDatepickerInputBa2);
 
-  var _super6 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDateRangeInputPartBase);
+  var _super6 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDateRangeInputPartBase);
 
   function MatDateRangeInputPartBase(_rangeInput, elementRef, _defaultErrorStateMatcher, _injector, _parentForm, _parentFormGroup, dateAdapter, dateFormats) {
     var _this20;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangeInputPartBase);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangeInputPartBase);
 
     _this20 = _super6.call(this, elementRef, dateAdapter, dateFormats);
     _this20._rangeInput = _rangeInput;
@@ -8863,7 +8863,7 @@ var MatDateRangeInputPartBase = /*#__PURE__*/function (_MatDatepickerInputBa2) {
     return _this20;
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangeInputPartBase, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangeInputPartBase, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       // We need the date input to provide itself as a `ControlValueAccessor` and a `Validator`, while
@@ -8914,7 +8914,7 @@ var MatDateRangeInputPartBase = /*#__PURE__*/function (_MatDatepickerInputBa2) {
   }, {
     key: "_onInput",
     value: function _onInput(value) {
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDateRangeInputPartBase.prototype), "_onInput", this).call(this, value);
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDateRangeInputPartBase.prototype), "_onInput", this).call(this, value);
 
       this._rangeInput._handleChildValueChange();
     }
@@ -9055,14 +9055,14 @@ Object(_angular_material_core__WEBPACK_IMPORTED_MODULE_16__["mixinErrorState"])(
 
 
 var MatStartDate = /*#__PURE__*/function (_MatDateRangeInputBas) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatStartDate, _MatDateRangeInputBas);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatStartDate, _MatDateRangeInputBas);
 
-  var _super7 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatStartDate);
+  var _super7 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatStartDate);
 
   function MatStartDate(rangeInput, elementRef, defaultErrorStateMatcher, injector, parentForm, parentFormGroup, dateAdapter, dateFormats) {
     var _thisSuper2, _this21;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatStartDate);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatStartDate);
 
     // TODO(crisbeto): this constructor shouldn't be necessary, but ViewEngine doesn't seem to
     // handle DI correctly when it is inherited from `MatDateRangeInputPartBase`. We can drop this
@@ -9082,7 +9082,7 @@ var MatStartDate = /*#__PURE__*/function (_MatDateRangeInputBas) {
       };
     };
 
-    _this21._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose([].concat(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper2 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this21), Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatStartDate.prototype)), "_getValidators", _thisSuper2).call(_thisSuper2)), [_this21._startValidator]));
+    _this21._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose([].concat(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper2 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this21), Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatStartDate.prototype)), "_getValidators", _thisSuper2).call(_thisSuper2)), [_this21._startValidator]));
 
     _this21._canEmitChangeEvent = function (event) {
       return event.source !== _this21._rangeInput._endInput;
@@ -9091,7 +9091,7 @@ var MatStartDate = /*#__PURE__*/function (_MatDateRangeInputBas) {
     return _this21;
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatStartDate, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatStartDate, [{
     key: "_getValueFromModel",
     value: function _getValueFromModel(modelValue) {
       return modelValue.start;
@@ -9110,7 +9110,7 @@ var MatStartDate = /*#__PURE__*/function (_MatDateRangeInputBas) {
   }, {
     key: "_formatValue",
     value: function _formatValue(value) {
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatStartDate.prototype), "_formatValue", this).call(this, value); // Any time the input value is reformatted we need to tell the parent.
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatStartDate.prototype), "_formatValue", this).call(this, value); // Any time the input value is reformatted we need to tell the parent.
 
 
       this._rangeInput._handleChildValueChange();
@@ -9280,14 +9280,14 @@ MatStartDate.ctorParameters = function () {
 
 
 var MatEndDate = /*#__PURE__*/function (_MatDateRangeInputBas2) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatEndDate, _MatDateRangeInputBas2);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatEndDate, _MatDateRangeInputBas2);
 
-  var _super8 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatEndDate);
+  var _super8 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatEndDate);
 
   function MatEndDate(rangeInput, elementRef, defaultErrorStateMatcher, injector, parentForm, parentFormGroup, dateAdapter, dateFormats) {
     var _thisSuper3, _this22;
 
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatEndDate);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatEndDate);
 
     // TODO(crisbeto): this constructor shouldn't be necessary, but ViewEngine doesn't seem to
     // handle DI correctly when it is inherited from `MatDateRangeInputPartBase`. We can drop this
@@ -9307,7 +9307,7 @@ var MatEndDate = /*#__PURE__*/function (_MatDateRangeInputBas2) {
       };
     };
 
-    _this22._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose([].concat(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper3 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this22), Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatEndDate.prototype)), "_getValidators", _thisSuper3).call(_thisSuper3)), [_this22._endValidator]));
+    _this22._validator = _angular_forms__WEBPACK_IMPORTED_MODULE_23__["Validators"].compose([].concat(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])((_thisSuper3 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(_this22), Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatEndDate.prototype)), "_getValidators", _thisSuper3).call(_thisSuper3)), [_this22._endValidator]));
 
     _this22._canEmitChangeEvent = function (event) {
       return event.source !== _this22._rangeInput._startInput;
@@ -9316,7 +9316,7 @@ var MatEndDate = /*#__PURE__*/function (_MatDateRangeInputBas2) {
     return _this22;
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatEndDate, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatEndDate, [{
     key: "_getValueFromModel",
     value: function _getValueFromModel(modelValue) {
       return modelValue.end;
@@ -9340,7 +9340,7 @@ var MatEndDate = /*#__PURE__*/function (_MatDateRangeInputBas2) {
         this._rangeInput._startInput.focus();
       }
 
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatEndDate.prototype), "_onKeydown", this).call(this, event);
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatEndDate.prototype), "_onKeydown", this).call(this, event);
     }
   }]);
 
@@ -9508,20 +9508,20 @@ MatEndDate.ctorParameters = function () {
 
 
 var MatDateRangePicker = /*#__PURE__*/function (_MatDatepickerBase2) {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDateRangePicker, _MatDatepickerBase2);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MatDateRangePicker, _MatDatepickerBase2);
 
-  var _super9 = Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDateRangePicker);
+  var _super9 = Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(MatDateRangePicker);
 
   function MatDateRangePicker() {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangePicker);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangePicker);
 
     return _super9.apply(this, arguments);
   }
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangePicker, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangePicker, [{
     key: "_forwardContentValues",
     value: function _forwardContentValues(instance) {
-      Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDateRangePicker.prototype), "_forwardContentValues", this).call(this, instance);
+      Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MatDateRangePicker.prototype), "_forwardContentValues", this).call(this, instance);
 
       var input = this._datepickerInput;
 
@@ -9579,7 +9579,7 @@ var nextUniqueId = 0;
 
 var MatDateRangeInput = /*#__PURE__*/function () {
   function MatDateRangeInput(_changeDetectorRef, _elementRef, control, _dateAdapter, _formField) {
-    Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangeInput);
+    Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDateRangeInput);
 
     this._changeDetectorRef = _changeDetectorRef;
     this._elementRef = _elementRef;
@@ -9621,7 +9621,7 @@ var MatDateRangeInput = /*#__PURE__*/function () {
   /** Current value of the range input. */
 
 
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangeInput, [{
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(MatDateRangeInput, [{
     key: "value",
     get: function get() {
       return this._model ? this._model.selection : null;
@@ -10173,7 +10173,7 @@ MatDateRangeInput.propDecorators = {
 
 
 var MatDatepickerModule = function MatDatepickerModule() {
-  Object(D_git_paul_material_dashboard_angular2_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerModule);
+  Object(D_git_paul_clinicafrontend_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, MatDatepickerModule);
 };
 
 MatDatepickerModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({

@@ -7,9 +7,9 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\node_modules\perfect-scrollbar\css\perfect-scrollbar.css */"faiq");
-__webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\src\assets\scss\material-dashboard.scss */"nhev");
-module.exports = __webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\src\assets\css\demo.css */"xuPZ");
+__webpack_require__(/*! D:\git\paul\clinicafrontend\node_modules\perfect-scrollbar\css\perfect-scrollbar.css */"faiq");
+__webpack_require__(/*! D:\git\paul\clinicafrontend\src\assets\scss\material-dashboard.scss */"nhev");
+module.exports = __webpack_require__(/*! D:\git\paul\clinicafrontend\src\assets\css\demo.css */"xuPZ");
 
 
 /***/ }),

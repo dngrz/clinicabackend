@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\git\paul\material-dashboard-angular2-master\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! D:\git\paul\clinicafrontend\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -2139,7 +2139,8 @@ var AuthguardGuard = /** @class */ (function () {
         if (this.usuario) {
             var perfil = this.usuario.perfil;
             if (perfil) {
-                var indAcceso = this.validateAccesoPerfil(perfil, state.url);
+                //let indAcceso: boolean = this.validateAccesoPerfil(perfil, state.url);
+                var indAcceso = true;
                 console.log("indAcceso", indAcceso);
                 if (!indAcceso) {
                     this.router.navigate(["/user-profile"]);

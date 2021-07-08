@@ -32,8 +32,8 @@ public class CitasResource {
     }
 
 	@PostMapping
-    private CitaBean crear(@RequestBody CitaBean doctor) {
-        return citaRepository.save(doctor);
+    private CitaBean crear(@RequestBody CitaBean cita) {
+        return citaRepository.save(cita);
     }
 	
 	@PutMapping
